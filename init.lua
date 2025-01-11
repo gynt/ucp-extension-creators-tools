@@ -48,6 +48,8 @@ return {
     local chatcommands = modules.chatcommands
 
     registerCommandAIC(chatcommands)
+
+    require("commands.view").register(chatcommands)
   end,
   disable = function(self, config) end,
 }
