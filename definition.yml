@@ -1,0 +1,8 @@
+name: creators-tools
+version: 1.0.0
+author: gynt
+type: module
+dependencies:
+  chatcommands: ^1.0.0
+  aicloader: ^1.1.2
+  aivloader: ^1.0.0
